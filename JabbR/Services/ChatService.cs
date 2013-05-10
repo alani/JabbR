@@ -401,7 +401,7 @@ namespace JabbR.Services
                 HtmlEncoded = false
             };
 
-            _repository.Add(chatMessage);
+            // _repository.Add(chatMessage);
 
             return chatMessage;
         }
@@ -420,7 +420,7 @@ namespace JabbR.Services
 
             var message = AddMessage(user, room, Guid.NewGuid().ToString("d"), content);
 
-            _repository.CommitChanges();
+            // _repository.CommitChanges();
 
             return message;
         }

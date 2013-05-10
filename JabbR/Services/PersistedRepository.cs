@@ -60,7 +60,7 @@ namespace JabbR.Services
 
         public void Add(ChatMessage message)
         {
-            _db.Messages.Add(message);
+            // _db.Messages.Add(message);
         }
 
         public void Add(Notification notification)
